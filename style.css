@@ -1,0 +1,112 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff7043;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #ffee58;
+  padding: 50px;
+  text-align: center;
+}
+
+#recipes {
+  padding: 20px;
+}
+
+#recipes .recipe-card {
+  display: inline-block;
+  width: 45%;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#recipes .recipe-card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#recipes .recipe-card h3 {
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+#recipes .recipe-card p {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e64a19;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
